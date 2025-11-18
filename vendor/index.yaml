@@ -344,8 +344,8 @@ vendors:
     vendorID: 220
 
   - id: keller
-    name: KELLER Druckmesstechnik AG
-    website: https://keller-druck.com/
+    name: KELLER Pressure
+    website: https://keller-pressure.com/
     logo: keller-logo.svg
     vendorID: 222
     description: KELLER Pressure, Europe's leading manufacturer of isolated pressure transducers and transmitters, was founded in 1974 by H. W. Keller, the inventor of the integrated silicon measuring cell. Piezoresitive pressure sensors have impressively high precision and pressure ranges from 5 mbar to 2000 bar. The KELLER product range includes digital manometers, level probes, data loggers and remote transmission units communicating wirelessly over LoRaWAN®, NB-IoT, LTE-M, LTE and more.
@@ -590,6 +590,12 @@ vendors:
   - id: packetworx
     name: PacketWorx Inc.
     vendorID: 314
+
+  - id: pallidus
+    name: Pallidus
+    website: https://pallidus.io/
+    ouis:
+      - 0002CC
 
   - id: parametric
     name: Parametric Engineering GmbH
@@ -1015,7 +1021,7 @@ vendors:
     name: Cavagna Group SPA
     vendorID: 604
 
-  - id: jsc-axioma
+  - id: axioma
     name: JSC Axioma Metering
     vendorID: 605
 
@@ -1473,6 +1479,12 @@ vendors:
   - id: ks-technologies
     name: KS Technologies, LLC
     vendorID: 800
+    website: https://kstechnologies.com/
+    description: Your Vision. Our Solution.
+    social:
+      twitter: kstechnologies
+      linkedin: https://www.linkedin.com/company/ks-technologies-llc
+      github: kstechnologies
 
   - id: crd-hk-charity
     name: The CRD-HK Charity
@@ -1621,9 +1633,6 @@ vendors:
   - id: the-things-products
     name: The Things Products
 
-  - id: the-box-development
-    name: The-Box Development
-
   - id: beiselen
     name: Beiselen Service GmbH
     website: https://digitale-services.beiselen.de/
@@ -1696,8 +1705,8 @@ vendors:
 
   - id: acrios
     name: ACRIOS Systems s.r.o.
-    website: https://acrios.com/?lang=en
-    logo: acrioslogo.png
+    website: https://acrios.com/
+    logo: acrios-logo.png
 
   - id: espeasy
     name: ESP Easy
@@ -1894,16 +1903,6 @@ vendors:
     social:
       linkedin: https://www.linkedin.com/company/saninudge/
 
-  - id: grinn
-    name: Grinn sp. z o.o.
-    description: Grinn is a technology company dedicated to building IoT solutions from a scratch. Since 2008 we are delivering high class services on embedded software development, electronics design, mechanical engineering and production management. During the last 15 years we've designed plenty of projects for different industries like automotive, healthcare, security, agriculture, business, etc.
-    website: https://grinn-global.com
-    logo: grinn-logo.png
-    social:
-      linkedin: https://www.linkedin.com/company/grinn
-      facebook: https://www.facebook.com/GRINNGLOBAL
-      twitter: GrinnInt
-
   - id: ambitlocker
     name: Ambitlocker
     description: Established in 2017, Ambitlocker is a Danish technology business that develops digital management systems for locking units. We have initially concentrated on implementing our technology in our padlocks, which makes it extremely easy to digitalise analogue and mechanical units without the need to rebuild them.
@@ -1949,7 +1948,7 @@ vendors:
 
   - id: cital
     name: Cital
-    website: https://www.cital.ch/
+    website: https://www.cital.io
     logo: cital-logo.svg
     social:
       linkedin: https://www.linkedin.com/company/getcital/
@@ -2002,6 +2001,13 @@ vendors:
     website: https://open-boat-projects.org
     logo: obp_logo.png
 
+  - id: elspina
+    name: Elspina VEINZ Inc.
+    website: https://elspina.veinz.tech/
+    logo: elspina_logo.png
+    social:
+      linkedin: https://www.linkedin.com/company/elspinaveinz/
+
   - id: watteco
     name: WATTECO
     vendorID: 296
@@ -2023,3 +2029,164 @@ vendors:
     social:
       linkedin: https://www.linkedin.com/company/lualtek/
       twitter: lualtek
+
+  - id: n-fuse
+    name: n-fuse GmbH
+    description: n-fuse is a digitization focusd company providing cutting-edge end-to-end solutions including LoRaWAN devices like environment sensors, IoT bbuttons, gateways and bridges.
+    logo: logo.svg
+    website: https://www.n-fuse.co/
+    social:
+      github: nfhw
+
+  - id: iot-factory
+    name: IOT Factory
+    description: Smart Metering & Asset Tracking
+    logo: iot-factory-logo.png
+    website: https://iotfactory.eu/
+
+  - id: lansitec
+    name: Lansitec
+    description: Lansitec is a technology-driven company providing cutting-edge active people and asset tracking products and services. i.e., trackers, gateways and bridges, beacons and tags, and related accessories like sensors.
+    logo: lansitec.png
+    website: https://www.lansitec.com/
+
+  - id: redz
+    name: REDZ Smart Communication
+    description: REDZ Smart Communication Technologies is a provider for industrial coomunication devices such as LoraWAN EndNode Modems, Electricity Meter Protocol to Modbus Protocol Gateways, LoRa RF Modems, Wireless Mbus Modems, Remote IO Devices, Serial to ETH Gateways, Industrial Unmanaged Switches with or without Broadband Powerline (BPL) connection and Energy Meter Reading Optical Probes.
+    logo: redz.png
+    website: https://www.redz-sc.com
+    social:
+      linkedin: https://www.linkedin.com/in/redz-smartcommunication
+
+  - id: te-connectivity
+    name: TE Connectivity
+    description: TE Connectivity empowers engineers by designing and manufacturing sensor and connectivity solutions for our increasingly connected world. Every Connection Counts !
+    logo: te_logo.svg
+    website: https://www.te.com/
+    vendorID: 260
+    ouis: ['BCAF91']
+    social:
+      linkedin: https://www.linkedin.com/company/te-connectivity
+      facebook: https://www.facebook.com/teconnectivity
+      twitter: teconnectivity
+      github: TEConnectivity
+
+  - id: cicicom
+    name: Cicicom
+    description: Cicicom, a distinguished Greek company, specializes in delivering complete IoT solutions
+    logo: cicicom.png
+    website: https://cicicom.gr/
+    social:
+      linkedin: https://www.linkedin.com/company/cicicom-ltd
+      facebook: https://www.facebook.com/cicicom
+
+  - id: atomsenses
+    name: Atomsenses
+    description: Atomsenses is a specialist IoT solution provider focusing on Lorawan sensors for indoor air quality monitoring, our vision is to transform how we manage and maintain healthy indoor environments.
+    logo: atomsenses.png
+    website: https://www.atomsenses.com/
+    social:
+      linkedin: https://www.linkedin.com/company/atomsenses-iot
+      github: Atomsenses
+
+  - id: jooby
+    name: Jooby
+    description: Jooby offers smart lighting and automates power, gas, heat, and water readings.
+    vendorID: 670
+    logo: jooby.png
+    website: https://jooby.eu/
+    social:
+      facebook: https://www.facebook.com/jooby.eu
+      github: jooby-dev
+
+  - id: accuwatch
+    name: Accuwatch
+    description: Accuwatch is a company that provides a range of IoT solutions for various industries.
+    logo: accuwatch.png
+    website: https://accuwatch.nl/
+
+  - id: infrafon
+    name: Infrafon
+    description: Infrafon develops iot devices for humans, bridging the gap between handheld computers and lightweight smart cards.
+    logo: infrafon_logo.png
+    website: https://www.infrafon.com/
+    social:
+      linkedin: https://de.linkedin.com/company/infrafon
+
+  - id: makerfabs
+    name: AgroSense
+
+  - id: yobiiq
+    name: YOBIIQ B.V.
+    description: The best way to predict the future is by creating it. As an IoT Solutions Company, we develop smart solutions daily, tailored to your business and objectives. We serve as a full-service provider for Smart Environments and a distributor with in-house product development, offering comprehensive solutions for almost any requirement. Partner with us to drive your smart future forward.
+    logo: yobiiq_logo.svg
+    website: https://www.yobiiq.com
+    vendorID: 1045
+    ouis: ['FC48C9']
+    social:
+      linkedin: https://www.linkedin.com/company/yobiiq
+      facebook: https://www.facebook.com/yobiiq
+      twitter: yobiiq
+      github: Yobiiq-BV
+
+  - id: southerniot
+    name: Southern IoT
+
+  - id: ezurio
+    name: Ezurio Inc.
+
+  - id: truvami
+    description: tiny trackers - total solution
+    name: truvami
+    logo: truvami_logo.svg
+    website: https://truvami.com/
+    social:
+      linkedin: https://linkedin.com/company/truvami
+      github: truvami
+
+  - id: tehama
+    name: Tehama Wireless Design Group
+    website: https://www.tehamawireless.com
+    ouis:
+      - 50C2D0
+
+  - id: radionode
+    name: Dekist Co., Ltd
+    description: Make it connected through Radionode Sensors
+    website: https://en.radionode365.com/kr/index.php
+    logo: radionode_logo.png
+    social:
+      linkedin: https://www.linkedin.com/company/radionode/
+      #facebook: https://www.facebook.com/radionode365
+      #instagram: radionodekorea
+      github: radionode
+
+  - id: sensus
+    name: Sensus GmbH Ludwigshafen
+    vendorID: 1170
+
+  - id: sparkfun
+    name: SparkFun Electronics
+    description: SparkFun Electronics is an online retail store that sells the bits and pieces to make your electronics projects possible.
+    website: https://www.sparkfun.com
+    social:
+      facebook: https://www.facebook.com/SparkFun
+      linkedin: https://www.linkedin.com/company/sparkfun-electronics/
+
+  - id: digi-international
+    name: Digi International
+    description: Digi International Inc. provides IoT connectivity products and services, including embedded modules, gateways, and network management solutions.
+    vendorID: 114
+    website: https://www.digi.com
+    social:
+      linkedin: https://www.linkedin.com/company/digi-international/
+      facebook: https://www.facebook.com/digiinternational
+    ouis:
+      - 0013A2
+    pen: 332
+  - id: fencyboy
+    name: Fencyboy GmbH
+    website: https://fencyboy.com
+    logo: fencyboy_logo.png
+    social:
+      linkedin: https://www.linkedin.com/showcase/fencyboy

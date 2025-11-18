@@ -1,7 +1,5 @@
-# This example contains just one end device: windsensor. It is referenced here in the index.
-
 endDevices:
-  # Unique identifier of the end device (lowercase, alphanumeric with dashes, max 36 characters)
+  - at101
   - am107
   - em300-th
   - em300-mcs
@@ -62,3 +60,7 @@ endDevices:
   - wts305
   - wts505
   - wts506
+  - ts30x
+  - ts201
+  - wt201v1
+  - wt201v2
